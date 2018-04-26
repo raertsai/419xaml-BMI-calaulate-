@@ -14,6 +14,7 @@
         </StackPanel >
         
         <Rectangle Fill="#aaa" VerticalAlignment="Top" Height="1"/>
+        
         <StackPanel Orientation="Horizontal">
             <TextBlock FontSize="20" Margin="10 25 10 10" Foreground="Orchid">weight:</TextBlock>
             <TextBox x:Name="textBox2" Width="350" Height="30" FontSize="20" Margin="0 20 10 10"></TextBox>
@@ -21,8 +22,11 @@
         </StackPanel >
         
         <Rectangle Fill="#aaa" VerticalAlignment="Top" Height="1"/>
+        
         <Button Height="40" FontSize="30" Margin="40" Click="Button_Click_1" Foreground="Orange">calculation</Button>
+        
         <Rectangle Fill="#aaa" VerticalAlignment="Top" Height="1"/>
+        
         <TextBlock x:Name="text" Foreground="Blue" FontSize="50" TextAlignment="Center">0</TextBlock>
     </StackPanel>
 </Window>
