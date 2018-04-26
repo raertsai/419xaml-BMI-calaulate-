@@ -1,1 +1,14 @@
 C:\Users\USER\Desktop\419edited\419edited\bin\Debug\419edited.exe.config
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\MainWindow.g.cs
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\App.g.cs
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited_MarkupCompile.cache
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited_MarkupCompile.lref
+C:\Users\USER\Desktop\419edited\419edited\bin\Debug\419edited.exe
+C:\Users\USER\Desktop\419edited\419edited\bin\Debug\419edited.pdb
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\MainWindow.baml
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited.g.resources
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\_419edited.Properties.Resources.resources
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited.exe
+C:\Users\USER\Desktop\419edited\419edited\obj\Debug\419edited.pdb

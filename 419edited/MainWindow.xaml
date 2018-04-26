@@ -9,24 +9,24 @@
     <StackPanel >
         <StackPanel Orientation="Horizontal" >
             <TextBlock FontSize="20" Margin="10 25 10 10" Foreground="Orchid">height:</TextBlock>
-            <TextBox x:Name="textBox1"  Width="350" Height="30" FontSize="20" Margin="0 20 10 10"></TextBox>
-            <Button  Width="60" Height="40" FontSize="15" Margin="10 20 50 10" Click="Button_Click_2" Foreground="RosyBrown">delete</Button>
+            <TextBox x:Name="heightbox"  Width="350" Height="30" FontSize="20" Margin="0 20 10 10"> </TextBox>
+            <Button  x:Name="heightbutton" Width="60" Height="40" FontSize="15" Margin="10 20 50 10"  Foreground="RosyBrown" Click="heightbutton_Click"  >delete</Button>
         </StackPanel >
-        
+              
+        <Slider x:Name="slider_h" TickPlacement="TopLeft" TickFrequency="10" IsSnapToTickEnabled="False" HorizontalAlignment="Center" Margin="0,0,-0.333,0" Width="519" Maximum="200" Minimum="100" ValueChanged="Slider_ValueChanged" />
+
         <Rectangle Fill="#aaa" VerticalAlignment="Top" Height="1"/>
         
         <StackPanel Orientation="Horizontal">
             <TextBlock FontSize="20" Margin="10 25 10 10" Foreground="Orchid">weight:</TextBlock>
-            <TextBox x:Name="textBox2" Width="350" Height="30" FontSize="20" Margin="0 20 10 10"></TextBox>
-            <Button Width="60" Height="40" FontSize="15" Margin="10 20 50 10" Click="Button_Click_3" Foreground="RosyBrown">delete</Button>
+            <TextBox x:Name="weightbox" Width="350" Height="30" FontSize="20" Margin="0 20 10 10"></TextBox>
+            <Button x:Name="weightbutton" Width="60" Height="40" FontSize="15" Margin="10 20 50 10"  Foreground="RosyBrown" Click="weightbutton_Click_1" >delete</Button>
         </StackPanel >
-        
+
+        <Slider x:Name="slider_w" TickPlacement="TopLeft" TickFrequency="10" IsSnapToTickEnabled="False" HorizontalAlignment="Center" Margin="0,0,-0.333,0" Width="519" Maximum="200" Minimum="10" ValueChanged="Slider_ValueChanged" />
+
         <Rectangle Fill="#aaa" VerticalAlignment="Top" Height="1"/>
-        
-        <Button Height="40" FontSize="30" Margin="40" Click="Button_Click_1" Foreground="Orange">calculation</Button>
-        
-        <Rectangle Fill="#aaa" VerticalAlignment="Top" Height="1"/>
-        
-        <TextBlock x:Name="text" Foreground="Blue" FontSize="50" TextAlignment="Center">0</TextBlock>
+ 
+        <TextBlock x:Name="answer" Foreground="Blue" FontSize="50" TextAlignment="Center">0</TextBlock>
     </StackPanel>
 </Window>
